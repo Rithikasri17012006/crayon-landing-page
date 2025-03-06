@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+@import url('https://fonts.cdnfonts.com/css/gilroy-medium');
+@import url('https://fonts.cdnfonts.com/css/gilroy');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+nav{
+    height:80px;
+    background-color: white;
+    display:flex;
+    position:fixed;
+    justify-content:space-between;
+    width:100%;
+    align-items:center;
+    padding:0 55px;
+}
+.logo{
+    float:left;
+}
+nav ul{
+    float:right;
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+nav ul li{
+    display:inline-block;
+}
+nav ul li a{
+    text-decoration:none;
+    color:#555555;
+    font-size:16px;
+    font-family: "Poppins", sans-serif;
+    line-height:22px;
+    font-weight:500;
+    text-align:center;
+    color:#555555;
+}
+.login{
+    gap:8px;
+    top:10px;
+    left:20px;
+}
+.get
+{
+    background-color:#5978FF;
+    border-radius:10px;
+    height:40px;
+    width:78px;
+    border:0px;
+    color:white;
+}
+.log_btn{
+    height:40px;
+    width:78px;
+    border-radius:10px;
+    border:1px solid #5978FF;
+    background-color:white;
+    color:#5978FF;
+}
+#home a{
+    color:#F8971F !important;
+}
+.content{
+    background-color:#F7F9FF;
+    height:795px;
+    width:100%;
+    padding:50px;
+    align-items:center;
+    display:flex;
+    justify-content:space-between;
+}
+
+.content .text {
+    max-width:50%;
+    flex:1;
+    margin-left: 182px;;
+}
+.content .text h1{
+    font-size:48px;
+    line-height:64px;
+    color:black;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+.content .chair{
+    max-width:40%;
+    object-fit:contain;
+    height:auto;
+    padding:35px;
+    margin-right:20px;
+}
+
+.content .text p{
+    font-size:18px;
+    line-height:24px;
+    font-weight:400;
+    color:black;
+    font-family: 'Gilroy-medium', sans-serif;
+
+}
+span{
+    color:#5978FF;
+}
+.explore{
+    background-color:#5978FF;
+    border-radius:10px;
+    height:58px;
+    width:208px;
+    border:0px;
+    color:white;
+}
+.tick {
+    width: 245px;  
+    height: 45px ;  
+    object-fit:contain;        
+    padding: 0 !important;   
+    display: block; 
+    margin-top:20px;
+    margin-bottom:30px;          
+}
+.line{
+    display: block;
+    margin-left: 130px; 
+    margin-top:-15px;
+    margin-bottom:35px;
+    width:228px;
+    height:12px;
+}
+.sparkle{
+    float:left;
+    margin-top:-20px;
+    margin-left: -41px;
+}
+.video{
+    height:450px;
+    width:100%;
+    background-color:white;
+}
+.video h1{
+    text-align:center;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size:28px;
+    font-weight:400;
+    line-height:37px;
+    margin-top:60px;
+}
+.container{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    margin-top:40px;
+}
+.card{
+    height: 270px;
+    width:388px;
+    background-color:#0D1226;
+    color:white;
+    border-radius:12px;
+    position: relative;
+}
+.card .vid{
+    height:212px;
+    width:388px;
+}
+.card .icon {
+    position: absolute; 
+    top: 35%; 
+    left: 45%;
+
+}
+.card .txt{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size:20px;
+    line-height:26px;
+    font-weight:400;
+    margin-top:10px;
+    margin-left:20px;
+}
+.sec{
+    background-color:#F7F9FF;
+    height:1366px;
+    width:100%;
+}
+.b1{
+    display:block;
+}
+.fea_container{
+    display:flex;
+    gap:60px;
+    justify-content:center;
+}
+.sec .head{
+    font-family:'Gilroy-Bold', sans-serif;
+    font-size:20px;
+    font-weight:400;
+    line-height:37px;
+    text-align:center;
+    padding:55px;
+}
+.sectalk{
+    height:191px;
+    width:287px;
+}
+.sectalk p{
+    font-family: 'Gilroy-medium', sans-serif;
+    font-size:16px;
+    line-height:24px;
+    color:#555555;
+}
+.sectalk .icon1{
+    height:48px;
+    width:48px;
+    top:6px;
+}
+.sectalk .title{
+    font-family: 'Gilroy-SemiBold', sans-serif;
+
+    font-size:20px;
+    line-height:24px;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+.fea_container1{
+    display:flex;
+    gap:60px;
+    justify-content:center;
+}
+.c1{
+    display:block;
+    margin-top:60px;
+}
+.advisors{
+    width:100%;
+    background-image:url('./images/Grid.png'),url('./images/Ellipse 23.png');
+    background-repeat:no-repeat;
+    height:787px;
+    background-color:#F7F9FF;
+    background-position:(center,center);
+    background-size: cover, contain;
+}
+.advisors h1{
+    font-family:'Gilroy-Bold', sans-serif;
+    font-size:28px;
+    line-height:37px;
+    font-weight:400;
+    color:black;
+    text-align:center;
+    margin-top:150px;
+}
+.per_container{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    margin-top:60px;
+}
+.per_card{
+    height:410px;
+    width:318px;
+    background-color:white;
+    border-radius:12px;
+    margin-left:20px;
+}
+.spl img{
+    float:left;
+    margin-top:-6px;
+}
+.spl{
+    height:32px;
+    width:272px;
+    border-radius:8px;
+    margin-left:8px;
+    margin-top:15px;
+}
+.card_cont h1{
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size:16px;
+    line-height:22px;
+    margin-top:12px;
+    margin-left:-110px;
+}
+
+.name {
+    display: flex;
+    gap:50px;
+    align-items: center;
+    margin-top:-6px;
+}
+.name h1 {
+    margin: 0;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.name .rate {
+    height: 24px;
+    width: 50px;
+    margin-top:10px;
+}
+.exp{
+    margin-top:10px;
+    margin-left:10px;
+}
+.credit{
+    width:296px;
+    height:60px;
+    background-color:#F7F9FF;
+    padding-left:10px;
+    border-radius:12px;
+    margin-left:10px;
+    margin-top:13px;
+}
+ .cre50{
+    width: 54px;
+    height: 10px;
+    margin-top:15px !important;
+}
+.min{
+    display:flex;
+    gap:100px;
+    margin-top:px;
+}
+.min .book{
+    float:right;
+    margin-top:-20px;
+
+    background-color:#5978FF;
+    border-radius:10px;
+    height:40px;
+    width:78px;
+    border:0px;
+    color:white;
+}
+.min p{
+font-family: 'Gilroy-Bold';
+font-weight: 400;
+font-size: 15px;
+line-height: 22px;
+letter-spacing: 0%;
+}
+.pic{
+    width: 304px;
+    height: 200px;
+    object-fit:contain;
+    margin-top:6px;
+    margin-left:6px;
+}
+.more{
+    margin-top:60px;
+    display:flex;
+    justify-content:center;
+
+}
+.more img{
+    float:left;;
+    width: 18px;
+    height: 15px;
+    margin-left:220px;
+    position:absolute;
+    margin-top:35px;
+}
+.more h1{
+    font-family: 'Gilroy-Bold';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color:#5978FF;
+    margin-top:30px;
+}
+.connected{
+    height:1002px;
+    width:100%;
+    background-color:white;
+}
+.step{
+    width:491px;
+    height:124px;
+}
+.step .green{
+    height:26px;
+    width:59px;
+    border-radius:24px;
+    background-color:#CBF2E0;
+    color:#008545;
+    font-family:'poppins';
+    font-size:12px;
+    font-weight:400;
+    text-align:center;
+    align-items:center;
+}   
+.step .h1{
+    font-family:'Gilroy-Bold';
+    font-size:18px;
+    line-height:30px;
+    font-weight:400;
+    color:black;
+}
+.step .rech{
+    font-family: Gilroy-Medium;
+    font-weight: 400;
+    font-size: 16px;
+    color:#555555;
+}
+
+
