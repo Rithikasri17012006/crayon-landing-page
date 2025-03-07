@@ -310,6 +310,19 @@ span{
     height: 24px;
     width: 50px;
     margin-top:10px;
+    margin-left:10px;
+}
+.name .rate1 {
+    height: 24px;
+    width: 50px;
+    margin-top:10px;
+    margin-left:45px;
+}
+.name .rate2 {
+    height: 24px;
+    width: 50px;
+    margin-top:10px;
+    margin-left:105px;
 }
 .exp{
     margin-top:10px;
@@ -449,7 +462,7 @@ letter-spacing: 0%;
     gap:40px;
 }
 .group{
-    width: 300.888114714947px;
+    width: 300.8px;
 height: 300;
 float:left;
 margin-top:-130px;
