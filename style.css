@@ -234,11 +234,11 @@ span{
 }
 .advisors{
     width:100%;
-    background-image:url('./images/Grid.png'),url('./images/Ellipse 23.png');
+    background-image:url('./images/Grid.png'),url('./images/Ellipse\ 23.png'),url('./images/Ellipse\ 23.png'),url('./images/Ellipse\ 23.png');
     background-repeat:no-repeat;
     height:787px;
     background-color:#F7F9FF;
-    background-position:(center,center);
+
     background-size: cover, contain;
 }
 .advisors h1{
@@ -388,13 +388,17 @@ letter-spacing: 0%;
     border-radius:24px;
     background-color:#CBF2E0;
     color:#008545;
-    font-family:'poppins';
-    font-size:12px;
-    font-weight:400;
-    text-align:center;
-    align-items:center;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 26px; 
+    letter-spacing: 0%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }   
-.step .h1{
+.step h1{
     font-family:'Gilroy-Bold';
     font-size:18px;
     line-height:30px;
@@ -402,10 +406,43 @@ letter-spacing: 0%;
     color:black;
 }
 .step .rech{
-    font-family: Gilroy-Medium;
+    font-family: 'Gilroy-Medium';
     font-weight: 400;
     font-size: 16px;
     color:#555555;
+    width:491px;
+    margin-right:0px;
+    padding:0px;
+}
+.connected .lc{
+    float:right;
+    margin-top:-430px;
+    padding:0px;
+}
+.connected .get_conn{
+    font-family: 'Gilroy-Bold';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align:center;
+    margin-top:80px;
+    margin-bottom:60px;
+}
+.step{
+    margin-left:182px;
+    margin-bottom:20px;
+}
+.step_col{
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+.group{
+    width: 300.888114714947px;
+height: 300;
+float:left;
+margin-top:-130px;
 }
 
 
